@@ -1,0 +1,47 @@
+/*Ejercicio1*/
+.contenedor{
+    background-color: rgb(110, 240, 233);
+    width: 190px;
+    height: 250px;
+    margin-left: 50px;
+    padding-top: 20px;
+     padding-left: 20px;
+}
+.textos p{
+   text-align: center;
+}
+
+.botn{
+    background-color: rgb(110, 240, 233);
+    margin-left: 40px; 
+    font-style: oblique;
+    font-family: fantasy;
+}
+
+/*Ejercicio2*/
+
+.caja{
+    background-color: rgb(21, 235, 50);
+    width: 190px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top:50px ;
+    padding-top: 20px;
+     padding-left: 20px;
+}
+.yolo p{
+    text-align: center;
+ }
+ .boton {
+     margin-left: 58px;
+ }
+ /*ejercicio3*/
+ .box{
+    background-color: rgb(21, 235, 50);
+    width: 190px;
+    height: 160px;
+    margin-left: 50px;
+    margin-top:50px ;
+    padding-top: 20px;
+     padding-left: 20px;
+ }

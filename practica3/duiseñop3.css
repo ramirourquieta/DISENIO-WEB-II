@@ -1,0 +1,30 @@
+body {
+    font-family: arial, helvetica ;
+    background:rgb(46, 230, 76) ;
+}
+.menu
+{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 40%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a
+{
+text-decoration: none;
+color: aliceblue;
+padding: 20px;
+display: block;
+transition: all 1s linear;
+
+}
+.menu li
+{
+display: inline-block;
+text-align: center;
+}
+.menu li a:hover{
+background:#ef8354;
+}

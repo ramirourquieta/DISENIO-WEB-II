@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <a name="calculadora"></a>
+</head>
+<body>
+    <div class="contenedor">
+
+        <form action="">
+
+            <input id="numero1" type="text">
+
+            <p>x^</p>
+
+            <input id="numero2" type="text">
+
+            <p>=</p>
+
+            <input id="resultado" type="text" readonly>
+
+            <input type="button" class="btn" onclick="mayor()" value="Resultado">
+                <script>
+                  function potencia (){
+                      var num1 = parseFloat(document.getElementById('numero1'));
+                      var num1 = parseFloat(document.getElementById('numero2'));
+                      
+                      for (numero1 ; numero1 <= numero2 ; numero1++)
+                      {
+                        var res = 1;
+                          res = numero1 * numero2;
+                      }
+                      document.getElementById('resultado').value = res;
+                  }
+                </script>
+        </form>
+            
+    </div>
+</body>
+</html>
